@@ -1,0 +1,114 @@
+{
+    "totems" : [
+        { 
+            "pic" : "http://d.zaix.ru/9xB4.png", "name" : "Архар", "charType": ["bravery", "strong", "reasoning"],
+            "chance" : 3.72
+        }, { 
+            "pic" : "http://d.zaix.ru/6SXg.png", "name" : "Барс", "charType": ["bravery", "strong", "reasoning", "honest"],
+            "chance" : 4.65
+        }, { 
+            "pic" : "http://d.zaix.ru/8azL.png", "name" : "Барсук", "charType": ["kind", "reasoning", "energy"],
+            "chance" : 2.33
+        } , { 
+            "pic" : "http://d.zaix.ru/7MaK.png", "name" : "Белка", "charType": ["kind", "energy"],
+            "chance" : 3.72
+        }, { 
+            "pic" : "http://d.zaix.ru/6HoA.png", "name" : "Бизон", "charType": ["energy", "kind"],
+            "chance" : 4.65
+        }, { 
+            "pic" : "http://d.zaix.ru/6nHR.png", "name" : "Вепрь", "charType": ["strong", "bravery", "reasoning"],
+            "chance" : 3.26
+        }, { 
+            "pic" : "http://d.zaix.ru/6T5t.png", "name" : "Волк", "charType": ["bravery", "strong", "reasoning"],
+            "chance" : 5.12
+        }, { 
+            "pic" : "http://d.zaix.ru/6r2y.png", "name" : "Ворон", "charType": ["intuition", "reasoning"],
+            "chance" : 3.26
+        }, { 
+            "pic" : "http://d.zaix.ru/6qdx.png", "name" : "Дикобраз", "charType": ["strong", "kind", "energy"],
+            "chance" : 3.26
+        }, { 
+            "pic" : "http://d.zaix.ru/9yuU.png", "name" : "Енот", "charType": ["kind", "honest", "energy"],
+            "chance" : 3.26
+        }, { 
+            "pic" : "http://d.zaix.ru/6rDK.png", "name" : "Журавль", "charType": ["kind", "strong", "reasoning"],
+            "chance" : 3.72
+        }, { 
+            "pic" : "http://d.zaix.ru/6HoU.png", "name" : "Заяц", "charType": ["energy", "kind"],
+            "chance" : 1.86
+        }, { 
+            "pic" : "http://d.zaix.ru/6Hoa.png", "name" : "Змея", "charType": ["bravery", "reasoning"],
+            "chance" : 3.26
+        }, { 
+            "pic" : "http://d.zaix.ru/7M8Q.png", "name" : "Карибу", "charType": ["kind", "strong", "reasoning"],
+            "chance" : 2.33
+        }, { 
+            "pic" : "http://d.zaix.ru/9xC8.png", "name" : "Койот", "charType": ["kind", "honest", "energy"],
+            "chance" : 3.72
+        }, { 
+            "pic" : "http://d.zaix.ru/9xjI.png", "name" : "Конь", "charType": ["strong", "honest", "energy"],
+            "chance" : 3.72
+        }, { 
+            "pic" : "http://d.zaix.ru/6Hoh.png", "name" : "Кугуар", "charType": ["strong", "bravery", "self-control"],
+            "chance" : 6.51
+        }, { 
+            "pic" : "https://d.zaix.ru/6rDX.png", "name" : "Лань", "charType": ["kind", "strong", "honest"],
+            "chance" : 5.12
+        }, { 
+            "pic" : "https://d.zaix.ru/6p8E.png", "name" : "Лиса", "charType": ["strong", "bravery", "energy"],
+            "chance" : 1.86
+        }, { 
+            "pic" : "http://d.zaix.ru/8azx.png", "name" : "Лось", "charType": ["strong"],
+            "chance" : 2.79
+        }, { 
+            "pic" : "http://d.zaix.ru/6Hpw.png", "name" : "Медведь", "charType": ["strong", "bravery"],
+            "chance" : 4.65
+        }, { 
+            "pic" : "http://d.zaix.ru/6SuQ.png", "name" : "Орёл", "charType": ["strong", "honest"],
+            "chance" : 4.19
+        }, { 
+            "pic" : "http://d.zaix.ru/6T3U.png", "name" : "Песец", "charType": ["kind", "honest"],
+            "chance" : 2.33
+        }, { 
+            "pic" : "http://d.zaix.ru/6Suz.png", "name" : "Росомаха", "charType": ["strong", "bravery"],
+            "chance" : 2.79
+        }, { 
+            "pic" : "http://d.zaix.ru/6Hop.png", "name" : "Рысь", "charType": ["strong", "reasoning", "intuition"],
+            "chance" : 5.12
+        }, { 
+            "pic" : "http://d.zaix.ru/htFZ.png", "name" : "Сова", "charType": ["reasoning", "kind"],
+            "chance" : 5.12
+        }, { 
+            "pic" : "http://d.zaix.ru/6SuH.png", "name" : "Сокол", "charType": ["strong", "kind"],
+            "chance" : 3.72
+        }
+    ],
+
+    "char" : [
+        {
+            "type": "bravery", 
+            "chars": ["Храбрость", "Непреклонность", "Неустрашимость", "Бесстрашие", "Преодоление страха", "Мужество", "Смелость", "Героизм", "Мужественность", "Боевой дух", "Неустрашимость", "Боевая мощь", "Выдержка", "Сила духа", "Стойкость", "Выживание"]
+        }, {
+            "type": "strong",
+            "chars": ["Сила воли", "Целеустремленность", "Напористость", "Напор", "Упорство", "Выносливость", "Настойчивость", "Неуклонность", "Непоколебимость", "Несгибаемость", "Постоянство", "Выдержка", "Независимость", "Незыблемость", "Убеждённость", "Напористость", "Стремление", "Решимость", "Дисциплина", "Ментальная сила", "Твердость"]
+        }, {
+            "type": "reasoning",
+            "chars": ["Обдуманность действий", "Обдуманность", "Проницательность", "Педантичность", "Пунктуальность", "Аккуратность", "Почтительность", "Разборчивость", "Тщательность", "Сообразительность", "Предусмотрительность"]
+        }, {
+            "type": "kind",
+            "chars": ["Чуткость", "Бескорыстность", "Отзывчивость", "Сердечность", "Добросердечность", "Лояльность", "Гуманность", "Доброта", "Общительность", "Домовитость", "Хозяйственность", "Бережность", "Трудолюбие", "Сострадательность", "Радость", "Жизнелюбие"]
+        }, {
+            "type": "intuition",
+            "chars": ["Самопознание", "Проницательность", "Чутье", "Целеустремленность", "Проводник", "Гармония", "Баланс", "Мудрость", "Предчувствие", "Понимание", "Постижение тайн", "Познание"]
+        }, {
+            "type": "honest",
+            "chars": ["Справедливость", "Честность", "Прямолинейность", "Прямота", "Чистосердечие", "Открытость", "Непредвзятость", "Объективность", "Истина", "Порядочность", "Честь", "Порядочность", "Достоинство", "Изобретательность"]
+        }, {
+            "type": "energy",
+            "chars": ["Энергичность", "Энергия", "Подвижность", "Подвижность", "Бойкость", "Прозорливость", "Расторопность", "Разговорчивость"]
+        }, {
+            "type": "self-control",
+            "chars": ["Контроль", "Самоконтроль", "Самообладание", "Дисциплина", "Самодисциплина"]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+body {
+    background: #c2bba9;
+    font-family: Trebuchet MS;
+  }
+  
+  header {
+    flex: auto;
+    display: flex;
+    background: #291b1e;
+    margin: 0;
+  }
+  
+  .container {
+    padding-left: 3px;
+  }
+  
+  header, .btn {
+    border-radius: 14px;
+  }
+  
+  .container {
+    padding-top: 5px;
+  }
+  
+  .btn {
+    float: left;
+    padding: 10px; 
+    border: 2px solid #291b1e;
+    color: #c2bba9;
+    font-family: impact;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: #291b1e;
+    background: #c2bba9;
+    border: 2px solid #291b1e;
+  }
+  
+  a.urls:hover {
+    color: orange;
+  }
+  
+  a.urls {
+    color: #291b1e;
+  }
+  
+  dd {
+    display: list-item;
+    list-style-type: "⤷";
+    padding-inline-start: 1ch;
+  }
+  
+  dt {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  /* name generator */
+  .button {
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  
+  .button:active {
+    background: #291b1e;
+    color: #c2bba9;
+  }
+  
+  .pname {
+    font-weight: bold;
+    font-size: 30px;
+    vertical-align: center;
+  }
+  
+  /* totem generator */
+  table {
+          border: 1px solid black;
+          border-collapse: collapse;
+  }
+  
+  td {
+          border: 1px solid black;
+          text-align: center;
+  }
