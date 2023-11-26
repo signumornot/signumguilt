@@ -1,0 +1,62 @@
+<head>
+    <title>Генератор автоматических отчётов</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Конструктор автоматических отчётов</h2>
+
+        <input type="button" id="createCreate" value="Создать новый отчёт" onclick="createPanel()">
+        <div id="createPanel">
+            <!-- элементы ниже будут добавляться функцией createPanel -->
+            Отчёт 
+            <input type="text" id="reportName" placeholder="название деятельности в род. падеже" size="40">
+            в блоге
+            <input type="text" id="blogID" placeholder="ID блога" size="10">
+            <input type="button" id="newReport" value="OK" onclick="newReport()">
+            <br>
+            <small>Например, "Отчёт свободного патруля в блоге blog217930"</small>
+        </div>
+            <div id="createReport">
+                <!-- элементы превью и инпут создаются функцией newReport -->
+                <b>Отчёт <a id="reportHeader">свободного патруля</a></b>
+                (блог <a id="reportBlog">217930</a>)
+                <div id="report-preview">
+                    <table border="1" width="75%" height="25%">
+                        <tr>
+                            <td>
+                                <div id="elements-preview"> </div>
+                            </td>
+                            <td>
+                                <div id="bbcode-preview"> </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <input type="button" id="createAdd" value="Добавить поле" onclick="addPanel()">
+
+                <div id="addPanel">
+                    <!-- элементы ниже будут добавляться функцией addStuff -->
+                    <select id="stuffType" onchange="printDesc()">
+                        <option>Выбрать элемент</option>
+                        <option disabled>Специализированные поля</option>
+                        <option value="onlyDate">Дата</option>
+                        <option value="dateAndTime">Дата и время</option>
+                        <option value="oneID">ID ведущего/собирающего</option>
+                        <option value="manyID">ID участников</option>
+                        <option value="illegals">Нарушения</option>
+                        <option disabled>Свободные поля</option>
+                        <option value="textInput">Ввод текста</option>
+                        <option value="dateInput">Ввод даты</option>
+                        <option value="selectCreate">Выпадающий список</option>
+                    </select>
+                    <input type="submit" id="addElement" value="ОК" onclick="addStuff()" disabled>
+                    <div id="stuffElements">
+                        
+                    </div>
+                    <small id="stuffDesc"></small>
+                </div>
+            </div>
+    </div>
+  <script src="autoreports.js"></script>
+</body>
