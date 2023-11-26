@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp9Curs3.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9Curs3"
+        mc:Ignorable="d"
+        Title="Панель управления" Height="414" Width="528">
+    <Window.Background>
+        <ImageBrush ImageSource="https://i.ibb.co/R0LqsHF/0a686b10ede9.png"/>
+    </Window.Background>
+    <Grid>
+        <Button Content="Пользователи" Height="23" HorizontalAlignment="Left" Margin="109,20,0,0" Name="users" VerticalAlignment="Top" Width="125" Click="users_Click"/>
+        <Button Content="Заявки" Height="22" HorizontalAlignment="Left" Margin="109,60,0,0" Name="zayavki" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Логи" Height="24" HorizontalAlignment="Left" Margin="109,100,0,0" Name="logs" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Доступы" Height="23" HorizontalAlignment="Left" Margin="109,140,0,0" Name="access" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Чёрный список" Height="23" HorizontalAlignment="Left" Margin="109,180,0,0" Name="blacklist" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Отчёты" Height="23" HorizontalAlignment="Left" Margin="109,220,0,0" Name="otchets" VerticalAlignment="Top" Width="125"/>
+        
+        <Button Content="Выйти из системы" Height="23" HorizontalAlignment="Left" Margin="10,350,0,0" Name="exit" VerticalAlignment="Top" Width="125" Click="exit_Click"/>
+    </Grid>
+</Window>
