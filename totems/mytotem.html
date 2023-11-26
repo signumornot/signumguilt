@@ -1,0 +1,72 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>Генератор тотемов</title>
+		<link rel="stylesheet" href="newstyles.css">
+	</head>
+	<body>
+		<header class="head1">
+			<a href="/index" class="btn">Главная</a>
+			<a href="/lolnames" class="btn">Генератор имён</a>
+			<a href="/mytotem" class="btn">Генератор тотемов</a>
+			<a href="/contacts" class="btn">Контакты</a>
+		</header>
+		<div class="container">
+            <label>
+                <input type="checkbox" id="isSmart" checked>
+                Использовать умную генерацию
+            </label>
+            <br>
+            <small>Если отмечено, генерирует только качества, соответствующие тотему. Включите, если не хотите Белок с качеством Хладнокровие.</small>
+            <br>
+            <label>
+                <input type="checkbox" id="statChance" disabled>
+                Использовать реальные шансы
+            </label>
+            <br>
+            <small>Если отмечено, шанс генерации определенных тотемов будет соответствовать текущим процентам носителей тотема в <a href="https://docs.google.com/spreadsheets/d/1LqE8TR6QBjp1mD_iMGxtpGksqgDfdPwq-mQ1axescX8/edit?usp=sharing">статистике тотемов</a>.</small>
+            <br>
+            <br>
+
+            <center><button class="button" onclick="newtotem()">Сгенерировать тотем</button></center>
+        <br>
+            <div class="ttm">
+                <center>
+                    <table border="1" style="background-color:#2B2B2B">
+                <tr>
+                    <td>
+                        <div align="center">
+                        <div style="background-color:#787878">
+                            <div style="color:#3d3d3d;display:inline">
+                                <div style="font-family:impact;display:inline">
+                                    <div id="beast" style="font-size:14pt;display:inline">Барс</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div style="background-color:#5c5c5c">
+                        <div id="pic"><img src="http://d.zaix.ru/6SXg.png" border="0"></div>
+                    </div>
+                    <div style="background-color:#787878">
+                        <div style="font-family:century gothic;display:inline">
+                            <div style="color:#3d3d3d;display:inline">
+                                <div style="font-size:13pt;display:inline">
+                                    <i>
+                                        <a id="char">⠀« <b>Независимость</b> »⠀</a>
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </tr>
+                    </table>
+                <br>
+                <b>Параметры генерации:</b>
+                <br>
+                <div id="params"></div>
+                </center>
+            </div>
+        </div>
+	<script src="totems.js"></script>
+	</body>
+</html>
