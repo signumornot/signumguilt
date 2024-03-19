@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=0.8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Countdown Timer</title>
 <style>
   body {
@@ -48,8 +48,8 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Display the countdown
-    document.getElementById("countdown").innerHTML = days + " дн " + hours + " ч "
-    + minutes + " мин " + seconds + " сек ";
+    document.getElementById("countdown").innerHTML = days + " д " + hours + " ч "
+    + minutes + " мин " + seconds + " с ";
     
     // If the countdown is over, display a message
     if (distance < 0) {
